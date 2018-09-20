@@ -9,47 +9,47 @@ import java.sql.*;
 class Proj1 extends JFrame implements ActionListener
 {	
 	int marks=0;
-	JFrame f = new JFrame("OOPM Online Exam");
+	JFrame f = new JFrame("OOPM Digital Exam");
 	JLabel logo = new JLabel();
 	JLabel l = new JLabel("RAMRAO ADIK INSTITUTE OF TECHNOLOGY");
-	JLabel l1 = new JLabel("OOPM ONLINE EXAMINATION");
+	JLabel l1 = new JLabel("OOPM DIGITALIZED EXAMINATION");
 	JLabel l2 = new JLabel("Enter Roll No:");
 	JLabel l3 = new JLabel();
 	JTextField t = new JTextField();
 	JButton b1 = new JButton("NEXT");
 	JButton b2 = new JButton("RESULT");
 
-	JFrame f1 = new JFrame("OOPM Online Exam-Instructions");
+	JFrame f1 = new JFrame("OOPM Exam-Instructions");
 	JLabel il = new JLabel("INSTRUCTIONS:");
 	JLabel il1 = new JLabel("");
 	JButton ib = new JButton("START");
 
-	JFrame q1 = new JFrame("OOPM Online Exam-Question1 ");
+	JFrame q1 = new JFrame("OOPM Exam-Question1 ");
 	JLabel ql1 = new JLabel("");
 	JTextField qt1 = new JTextField("");
 	JButton qb1 = new JButton("NEXT");
 
-	JFrame q2 = new JFrame("OOPM Online Exam-Question2 ");
+	JFrame q2 = new JFrame("OOPM Exam-Question2 ");
 	JLabel ql2 = new JLabel("");
 	JTextField qt2 = new JTextField("");
 	JButton qb2 = new JButton("NEXT");
 
-	JFrame q3 = new JFrame("OOPM Online Exam-Question3 ");
+	JFrame q3 = new JFrame("OOPM Exam-Question3 ");
 	JLabel ql3 = new JLabel("");
 	JTextField qt3 = new JTextField("");
 	JButton qb3 = new JButton("NEXT");
 
-	JFrame q4 = new JFrame("OOPM Online Exam-Question4 ");
+	JFrame q4 = new JFrame("OOPM Exam-Question4 ");
 	JLabel ql4 = new JLabel("");
 	JTextField qt4 = new JTextField("");
 	JButton qb4 = new JButton("NEXT");
 
-	JFrame q5 = new JFrame("OOPM Online Exam-Question5 ");
+	JFrame q5 = new JFrame("OOPM Exam-Question5 ");
 	JLabel ql5 = new JLabel("");
 	JTextField qt5 = new JTextField("");
 	JButton qb5 = new JButton("SUBMIT");
 
-	JFrame r1 = new JFrame("OOPM Online Exam-Results");
+	JFrame r1 = new JFrame("OOPM Exam-Results");
 	JLabel rl = new JLabel();
 	JButton rb = new JButton("EXIT");
 
